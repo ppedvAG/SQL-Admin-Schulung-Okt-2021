@@ -22,6 +22,8 @@ SQL Edition: 2019 CU 12; Std
 Aufgaben: Jobs,Email --> Monitoring, Wartung
 		  TSQL Abfragen (Cursor)
 		  
+
+
 		  
 
 
