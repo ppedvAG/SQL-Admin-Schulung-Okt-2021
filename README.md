@@ -9,12 +9,21 @@
 
 ## 2. Databases
 * Architekur der Datendateien
+* Seiten und Blöcke
+* Diagramm
+* DB Design Normalisierung/PK-FK/Beziehungen/Datentypen
 
 ## 3. DB Objekte
+* Prozeduren/Sichten/Funktionen/Adhoc Abfragen
+* TSQL Editoren
 
 ## 4. Jobs, Auftrage
 * Mailversand
 * Standardwartung
+* Proxykonten
+* Warnungen
+* Schweregrade
+* Operatoren
 
 ## 5. Security
 

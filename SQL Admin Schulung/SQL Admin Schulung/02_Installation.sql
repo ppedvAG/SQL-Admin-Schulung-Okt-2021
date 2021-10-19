@@ -31,6 +31,9 @@ Datbankengine plus Volltextsuche und Replikation
 
 
 Dienstkonten
+
+jeder Zugriff auf ext Ressourcen wird immer mit Dienstkonten gelöst!
+
 	Volumewartungstask
 		SQL Server kann ohne auszunullen Dateien vergrößern
 		aus Securitygründen evtl nicht machen
