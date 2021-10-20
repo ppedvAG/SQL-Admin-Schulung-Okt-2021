@@ -253,6 +253,32 @@ from database_snapshot = 'Nwind_1142'
 --fertisch...
 
 
+--Sicherungsstrategie
+
+--6 bis 22 Uhr
+--Mo bis Fr
+--Ausfallzeit: 30min
+--Datenverlust:  1Tag  .. 2 Stunde--> Tlogsicherung
+--Größe der DBs  300GB
+
+--V: 3 h-->  täglich 22:30
+--T: alle 2 Stunden --> alle 1 Stunden --> 30min --> 15min
+--D: alle 3 od 4  T
+
+
+--V 22:30
+--T: 6:15 alle 15 min bis 22:15
+--D: 7:20 D jede Stunden  bis 22.20
+
+--nie eine Sicherung in einzige bak Datei
+
+
+
+
+
+ 
+
+
 
 
 
