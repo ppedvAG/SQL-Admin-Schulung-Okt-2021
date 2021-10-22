@@ -26,10 +26,23 @@
 * Operatoren
 
 ## 5. Security
+* Login vs User
+* Contained DB
+* Verwaiste User
+* Rollenkonzept
+* Serverrolle/Anwendungsrolle
 
 ## 6. Backup / Restore
+* versch Fallsituationen
+* V D T
+* Dateisicherung
+* Rolle des Logfiles und Wiederherstellungsmodels
 
 ## 7. Monitoring
+* Live
+* Aktivitätsmonitor , DMVs, 
+* Historische Ereignisse
+* Profiler, Perfmon
 
 ## 8. Tuning
 * Indizes

@@ -35,6 +35,31 @@ TIPP::: achte darauf, dass bei Änderungen an Hardware (VMs)
 Pfade: Ok.. auch wenn nur ein Laufwerk
 
 
+--Fehlendes Login
+create database northwind
+go
+
+
+Create login Seppl with password ='ppedv2019!'
+
+USE [Northwind]
+GO
+CREATE USER [Seppl] FOR LOGIN [Seppl]
+GO
+
+CREATE ROLE [Support]
+GO
+
+
+ALTER ROLE [Support] ADD MEMBER [Seppl]
+GO
+
+
+ALTER ROLE [db_backupoperator] ADD MEMBER [Support]
+GO
+drop login seppl
+
+
 
 
 */

@@ -15,6 +15,18 @@
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
         </ConnectionNode>
+        <ConnectionNode Name="KAIRO\HR:KAIRO\Administrator">
+          <Created>2021-10-20T16:09:16.4720093+02:00</Created>
+          <Type>SQL</Type>
+          <Server>KAIRO\HR</Server>
+          <UserName />
+          <Authentication>Windows-Authentifizierung</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
+        </ConnectionNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Abfragen" Type="0" Sorted="true">
@@ -67,17 +79,83 @@
           <AssociatedConnUserName />
           <FullPath>08_backup_Restore.sql</FullPath>
         </FileNode>
+        <FileNode Name="09_Security.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>09_Security.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10_Audit.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10_Audit.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11_ContainedDB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>11_ContainedDB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12_Monitoring.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>12_Monitoring.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12_Perfmon_Indikatoren.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>12_Perfmon_Indikatoren.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13_indizes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>13_indizes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="14_Weiter Tools im SSMS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>14_Weiter Tools im SSMS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Glenn Berry DMVs.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Glenn Berry DMVs.sql</FullPath>
+        </FileNode>
         <FileNode Name="I_Recap.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>I_Recap.sql</FullPath>
         </FileNode>
+        <FileNode Name="Index sehen.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Index sehen.sql</FullPath>
+        </FileNode>
         <FileNode Name="instnwnd.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>instnwnd.sql</FullPath>
+        </FileNode>
+        <FileNode Name="MaintenanceSolution.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>MaintenanceSolution.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_help_revlogin.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO\HR:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO\HR</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>sp_help_revlogin.sql</FullPath>
         </FileNode>
         <FileNode Name="X_Seiten _Blöcke.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
@@ -88,7 +166,14 @@
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Sonstiges" Type="3" Sorted="true">
-      <Items />
+      <Items>
+        <FileNode Name="SQLPerfmonVorlage.xml">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLPerfmonVorlage.xml</FullPath>
+        </FileNode>
+      </Items>
     </LogicalFolder>
   </Items>
 </SqlWorkbenchSqlProject>
